@@ -1,0 +1,128 @@
+body{
+    background-image: url("../images/body2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    margin: 6%;
+}
+
+h1{
+    color: white;
+}
+
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-left: 50px;
+}
+
+#monster {
+    border-radius: 5px;
+    background-color: orange;
+    width: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-style: italic;
+}
+
+#actionbox {
+    border: 5px solid grey;
+    width: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#actionbox > p {
+    margin: 0;
+    color: white;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+}
+
+ul#status li {
+    margin-left : 20px;
+}
+
+button {
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 25%; 
+    width: 80px;
+    height: 50px;
+    color: rgb(255, 0, 0);
+    border: 0;
+    margin-right: 8px;
+}
+
+button:hover {
+    /*background-color: dodgerblue;*/
+}
+
+button#b2{
+    background-image: url("../images/run.jpg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b3{
+    background-image: url("../images/fight.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b4{
+    background-image: url("../images/sleep.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b5{
+    background-image: url("../images/eat.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b6{
+    background-image: url("../images/show.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b7{
+    background-image: url("../images/work.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#b1{
+    background-image: url("../images/life.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button#k{
+    background-image: url("../images/kill.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
